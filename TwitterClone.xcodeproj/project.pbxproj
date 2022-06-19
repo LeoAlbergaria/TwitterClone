@@ -13,6 +13,10 @@
 		5DCB0EBB285F735C00261F42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DCB0EBA285F735C00261F42 /* Preview Assets.xcassets */; };
 		5DCB0ECA285F749600261F42 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0EC9285F749600261F42 /* FeedView.swift */; };
 		5DCB0ECD285F75EE00261F42 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0ECC285F75EE00261F42 /* TweetRowView.swift */; };
+		5DCB0ED1285F7D8000261F42 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0ED0285F7D8000261F42 /* MainTabView.swift */; };
+		5DCB0ED6285F808800261F42 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0ED5285F808800261F42 /* NotificationsView.swift */; };
+		5DCB0ED8285F809700261F42 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0ED7285F809700261F42 /* MessagesView.swift */; };
+		5DCB0EDA285F80A200261F42 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCB0ED9285F80A200261F42 /* ExploreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		5DCB0EBA285F735C00261F42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DCB0EC9285F749600261F42 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		5DCB0ECC285F75EE00261F42 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
+		5DCB0ED0285F7D8000261F42 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		5DCB0ED5285F808800261F42 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		5DCB0ED7285F809700261F42 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		5DCB0ED9285F80A200261F42 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			isa = PBXGroup;
 			children = (
 				5DCB0EC5285F73B500261F42 /* Components */,
+				5DCB0ED4285F807100261F42 /* Messages */,
+				5DCB0ED3285F805500261F42 /* Notifications */,
+				5DCB0ED2285F804C00261F42 /* Explore */,
+				5DCB0ECE285F7D6300261F42 /* MainTab */,
 				5DCB0EC6285F73BD00261F42 /* Feed */,
 			);
 			path = Core;
@@ -143,6 +155,38 @@
 				5DCB0ECC285F75EE00261F42 /* TweetRowView.swift */,
 			);
 			path = Tweets;
+			sourceTree = "<group>";
+		};
+		5DCB0ECE285F7D6300261F42 /* MainTab */ = {
+			isa = PBXGroup;
+			children = (
+				5DCB0ED0285F7D8000261F42 /* MainTabView.swift */,
+			);
+			path = MainTab;
+			sourceTree = "<group>";
+		};
+		5DCB0ED2285F804C00261F42 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				5DCB0ED9285F80A200261F42 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		5DCB0ED3285F805500261F42 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				5DCB0ED5285F808800261F42 /* NotificationsView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		5DCB0ED4285F807100261F42 /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				5DCB0ED7285F809700261F42 /* MessagesView.swift */,
+			);
+			path = Messages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +263,10 @@
 				5DCB0ECD285F75EE00261F42 /* TweetRowView.swift in Sources */,
 				5DCB0ECA285F749600261F42 /* FeedView.swift in Sources */,
 				5DCB0EB4285F735800261F42 /* TwitterCloneApp.swift in Sources */,
+				5DCB0ED8285F809700261F42 /* MessagesView.swift in Sources */,
+				5DCB0ED1285F7D8000261F42 /* MainTabView.swift in Sources */,
+				5DCB0EDA285F80A200261F42 /* ExploreView.swift in Sources */,
+				5DCB0ED6285F808800261F42 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
